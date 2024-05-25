@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width:1700px){
+  main .main-contact{
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+  }
+  .main-contact .contact-info-1{
+    width:700px;
+  }
+}
+@media only screen and (max-width:500px) {
+  header .our-header{
+    text-align: center;
+  }
+  .main-contact .contact-info-1 {
+    width: 500px;
+}
+footer p{
+  font-size: 12px;
+  margin: 19px;
+}
+}
